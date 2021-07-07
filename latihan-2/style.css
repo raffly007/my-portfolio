@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: rgb(20, 20, 20);
+}
+
+.navbar h1 {
+    color: rgb(245, 245, 245);
+}
+
+.navbar h1 {
+    font-family: 'Major Mono Display', 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin-top: auto;
+
+
+
+}
+
+.navbar li {
+    margin-left: 10px;
+}
+
+.navbar li a {
+    color: rgb(245, 245, 245);
+    font-size: 1rem;
+    font-family: 'Major Mono Display';
+    text-transform: capitalize;
+}
+
+.jumbotron {
+    background-color: rgb(245, 245, 245);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.jumbotron h2 {
+    font-family: 'Major Mono Display' !important;
+}
